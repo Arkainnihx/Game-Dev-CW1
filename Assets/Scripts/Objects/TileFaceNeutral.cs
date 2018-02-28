@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class TileFaceNeutral : TileFace {
+﻿public class TileFaceNeutral : TileFace {
     
-    public override void onWalkOver() {
+    public override void OnWalkOver() {
         return; //binch
     }
 }

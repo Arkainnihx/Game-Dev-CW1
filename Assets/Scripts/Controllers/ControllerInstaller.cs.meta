@@ -3,8 +3,11 @@ guid: ec322d6132b9ba94cb402ce75d565c4e
 timeCreated: 1519140039
 licenseType: Pro
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _playerPrefab: {fileID: 1609147719156662, guid: 637cd9fe3f30d3947affc071b9a55d04,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

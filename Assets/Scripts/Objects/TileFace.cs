@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public abstract class TileFace : MonoBehaviour {
 
@@ -24,6 +22,6 @@ public abstract class TileFace : MonoBehaviour {
         return component;
     }
 
-    public abstract void onWalkOver();
+    public abstract void OnWalkOver();
 
 }

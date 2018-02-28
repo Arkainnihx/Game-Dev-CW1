@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Tile : MonoBehaviour {
 
@@ -20,14 +18,14 @@ public class Tile : MonoBehaviour {
         return tile;
     }
 
-    public void flip() {
+    public void Flip() {
         TileFace tmp = upper;
         upper = lower;
         lower = tmp;
         //TODO: also flip the object
     }
 
-    public void onWalkOver() {
-        this.upper.onWalkOver();
+    public void OnWalkOver() {
+        this.upper.OnWalkOver();
     }
 }
